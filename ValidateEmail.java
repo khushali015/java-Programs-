@@ -35,7 +35,7 @@ class ValidateEmail
 			}
 		}
 		
-		String emailParts2[] = email.split("\\.");
+		String emailParts2[] = email.split("\\.");
 		if(emailParts2.length < 2)
 		{
 			System.out.println("Invalid : There must be atleast one '.'");
